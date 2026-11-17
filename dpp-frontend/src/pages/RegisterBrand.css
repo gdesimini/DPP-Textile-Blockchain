@@ -1,0 +1,105 @@
+.register-brand-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+.register-brand-header {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.brand-icon {
+  color: #2980b9;
+}
+
+.register-brand-header h2 {
+  margin: 10px 0 5px 0;
+}
+
+.register-brand-header p {
+  font-size: 13px;
+  color: #7f8c8d;
+  margin: 0;
+}
+
+.status-box {
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.status-box.success {
+  background-color: #e8f8f5;
+  color: #27ae60;
+}
+
+.status-box.error {
+  background-color: #fde8e8;
+  color: #e74c3c;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+.form-field.last {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  color: #34495e;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-input:focus {
+  border-color: #2980b9;
+  box-shadow: 0 0 0 3px rgba(41, 128, 185, 0.15);
+}
+
+.submit-brand-btn {
+  width: 100%;
+  background-color: #2980b9;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-brand-btn:hover:not(:disabled) {
+  background-color: #1f618d;
+}
+
+.submit-brand-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

@@ -1,0 +1,379 @@
+.passport-detail-container {
+  max-width: 800px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px 10px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.page-title {
+  text-align: center;
+  color: #2c3e50;
+  word-break: break-word;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  min-width: 0;
+}
+
+.search-btn {
+  padding: 12px 20px;
+  font-size: 15px;
+  background-color: #27ae60;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.2s ease;
+  white-space: nowrap;
+}
+
+.search-btn:hover {
+  background-color: #219150;
+}
+
+.status-loading {
+  text-align: center;
+  color: #475569;
+}
+
+.error-banner {
+  background-color: #fff1f2;
+  border: 1px solid #fecdd3;
+  color: #be123c;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.error-banner-icon {
+  flex-shrink: 0;
+}
+
+.status-success-box {
+  background-color: #e8f8f5;
+  color: #27ae60;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.passport-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+}
+
+.hidden-qr-export {
+  display: none;
+}
+
+.audit-badge-box {
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #cbd5e1;
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.audit-badge-box.valid {
+  border-color: #22c55e;
+  background-color: #f0fdf4;
+}
+
+.audit-badge-box.invalid {
+  border-color: #ef4444;
+  background-color: #fff5f5;
+}
+
+.audit-badge-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.audit-badge-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #475569;
+}
+
+.audit-badge-title.valid { color: #15803d; }
+.audit-badge-title.invalid { color: #991b1b; }
+
+.audit-discrepancy-msg {
+  font-size: 13px;
+  color: #b91c1c;
+}
+
+.passport-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.passport-card-title {
+  margin: 0 0 6px 0;
+  color: #2c3e50;
+}
+
+.passport-card-meta {
+  margin: 0;
+  color: #7f8c8d;
+  font-size: 14px;
+}
+
+.download-qr-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.passport-composition-section {
+  margin-bottom: 15px;
+}
+
+.composition-text {
+  font-size: 15px;
+}
+
+/* Dettagli Tecnici */
+.product-details-box {
+  padding: 15px;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  margin-bottom: 20px;
+}
+
+.product-details-heading {
+  margin: 0 0 10px 0;
+  color: #2c3e50;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.product-specs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.spec-item {
+  margin: 0;
+}
+
+.care-instructions-text {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+}
+
+.notes-text {
+  margin: 8px 0 0 0;
+  font-size: 14px;
+  font-style: italic;
+  color: #475569;
+}
+
+.map-section {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.section-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0 15px 0;
+}
+
+.section-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #2980b9;
+  margin: 0;
+}
+
+.toggle-add-btn {
+  background-color: #2980b9;
+  color: #ffffff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.add-step-form {
+  background-color: #f0f4f8;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #d0dbe5;
+}
+
+.form-subheading {
+  margin: 0 0 10px 0;
+  color: #2c3e50;
+}
+
+.grid-3col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.form-input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.save-step-btn {
+  background-color: #27ae60;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.save-step-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.step-item {
+  padding: 12px;
+  border-left: 4px solid #27ae60;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  border-radius: 0 6px 6px 0;
+}
+
+.step-details {
+  font-size: 14px;
+  color: #555555;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.blockchain-footer {
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: 1px dashed #ccc;
+}
+
+.blockchain-success {
+  font-size: 14px;
+  color: #27ae60;
+}
+
+.blockchain-success-title {
+  margin: 0 0 5px 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+}
+
+.tx-link {
+  color: #2980b9;
+  text-decoration: underline;
+  word-break: break-all;
+  font-size: 13px;
+}
+
+.blockchain-pending {
+  margin: 0;
+  font-size: 14px;
+  color: #7f8c8d;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+@media (max-width: 600px) {
+  .passport-card { padding: 15px; }
+  .search-form { flex-direction: column; }
+  .search-btn, .toggle-add-btn, .save-step-btn { width: 100%; justify-content: center; }
+  .grid-3col { grid-template-columns: 1fr; }
+  .section-header-row, .passport-card-header { flex-direction: column; gap: 12px; }
+}
+
+.animate-spin {
+  animation: spinAudit 1s linear infinite;
+}
+
+@keyframes spinAudit {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
