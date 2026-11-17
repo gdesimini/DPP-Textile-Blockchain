@@ -1,6 +1,6 @@
 # 🌍 Digital Product Passport (DPP) per il Tessile Rigenerato
 
-Prototipo software full-stack sviluppato come progetto di tesi triennale in Ingegneria Informatica e dell'Automazione (Politecnico di Bari). Il sistema implementa un Passaporto Digitale di Prodotto conforme alle direttive europee (ESPR), focalizzandosi sulla filiera del tessile rigenerato e ispirandosi ai processi operativi di aziende circolari come Rifò.
+Prototipo software full-stack sviluppato come progetto di tesi triennale in Ingegneria Informatica e dell'Automazione (Politecnico di Bari). Il sistema implementa un Passaporto Digitale di Prodotto, focalizzandosi sulla filiera del tessile rigenerato e ispirandosi ai processi operativi di aziende circolari come Rifò.
 
 ## 🛠️ Stack Tecnologico e Architettura
 L'applicazione adotta un'architettura ibrida a tre livelli (Presentation, Application, Data Tier):
