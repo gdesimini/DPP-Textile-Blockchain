@@ -2,9 +2,11 @@
 
 Prototipo software full-stack sviluppato come progetto di tesi triennale in Ingegneria Informatica e dell'Automazione (Politecnico di Bari). Il sistema implementa un Passaporto Digitale di Prodotto, focalizzandosi sulla filiera del tessile rigenerato e ispirandosi ai processi operativi di aziende circolari come Rifò.
 
-## 🚀 Live Demo
+## 🚀 Live Demo & Test Immediato
 Puoi testare l'applicazione in produzione al seguente indirizzo:
 [👉 Accedi al Passaporto Digitale del Prodotto](https://dpp-textile-blockchain.vercel.app)
+
+*💡 **Nota per la consultazione:** Non avendo le credenziali per il login amministrativo, puoi testare subito il sistema inserendo l'ID **`PROD_001`** nella barra di ricerca della pagina pubblica.*
 
 ## 🛠️ Stack Tecnologico e Architettura
 L'applicazione adotta un'architettura ibrida a tre livelli (Presentation, Application, Data Tier):
